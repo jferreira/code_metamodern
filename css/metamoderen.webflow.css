@@ -10793,9 +10793,8 @@ a {
 
 .page-wrapper {
   height: 100vh;
-  background-image: url('../images/ship.jpg');
-  background-position: 0px 0px;
-  background-size: cover;
+  background-image: url('../images/1Asset-24x.png');
+  background-position: 50% 50%;
 }
 
 .cards {
@@ -11148,10 +11147,9 @@ a {
 
 .page-wrapper-copy {
   height: 100vh;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.19)), to(rgba(0, 0, 0, 0.19))), url('../images/ship.jpg');
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.19)), url('../images/ship.jpg');
-  background-position: 0px 0px, 50% 0%;
-  background-size: auto, cover;
+  background-image: url('../images/ship.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
 }
 
 .link-6 {
@@ -11170,6 +11168,10 @@ a {
 
 .link-block-23 {
   display: none;
+}
+
+.link-8 {
+  font-family: gt-maru, sans-serif;
 }
 
 @media screen and (min-width: 1280px) {
